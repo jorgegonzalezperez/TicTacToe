@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorgegzlezprez/TicTacToe.git"
+    "url": "git+https://github.com/jorgegonzalezperez/TicTacToe.git"
   },
   "author": "Jorge Gonzalez Perez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jorgegzlezprez/TicTacToe/issues"
+    "url": "https://github.com/jorgegonzalezperez/TicTacToe/issues"
   },
-  "homepage": "https://github.com/jorgegzlezprez/TicTacToe#readme",
+  "homepage": "https://github.com/jorgegonzalezperez/TicTacToe#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "es6-promise": "^3.1.2",
