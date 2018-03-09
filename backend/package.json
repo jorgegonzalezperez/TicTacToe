@@ -4,31 +4,33 @@
   "description": "",
   "main": "built/server.js",
   "scripts": {
-    "start": "rm -rf build; node_modules/.bin/tsc",
-    "restart": "rm -rf build; rm -rf typings; rm -rf node_modules; npm install; node_modules/.bin/typings install; node_modules/.bin/tsc",
-    "postinstall": "node_modules/.bin/typings install",
+    "start": "rimraf build; node_modules/.bin/tsc",
+    "restart": "rimraf build; rimraf node_modules; yarn; node_modules/.bin/tsc",
     "test": "node_modules/.bin/jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorgegzlezprez/TicTacToe.git"
+    "url": "git+https://github.com/jorgegonzalezperez/TicTacToe.git"
   },
-  "author": "Jose Miguel Gallas Olmedo & Jorge Gonzalez Perez",
+  "author": "Jorge Gonzalez Perez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jorgegzlezprez/TicTacToe/issues"
+    "url": "https://github.com/jorgegonzalezperez/TicTacToe/issues"
   },
-  "homepage": "https://github.com/jorgegzlezprez/TicTacToe#readme",
+  "homepage": "https://github.com/jorgegonzalezperez/TicTacToe#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "es6-promise": "^3.1.2",
     "express": "^4.13.4",
     "mongodb": "^2.1.11",
-    "request": "^2.69.0",
-    "typings": "^0.7.8"
+    "request": "^2.69.0"
   },
   "devDependencies": {
+    "@types/node": "^9.4.7",
     "jasmine": "^2.4.1",
-    "tsc": "^1.20150623.0"
+    "rimraf": "^2.6.2",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
   }
 }
