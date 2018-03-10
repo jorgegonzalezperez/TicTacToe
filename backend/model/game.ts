@@ -1,5 +1,6 @@
 import Tile from "./tile";
 import dbHelper from "../repository/db-helper";
+import { Promise } from "es6-promise";
 
 export default class Game {
 
