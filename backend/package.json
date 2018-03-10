@@ -22,23 +22,16 @@
     "body-parser": "^1.15.0",
     "es6-promise": "^4.2.4",
     "express": "^4.13.4",
-<<<<<<< HEAD
-    "mongodb": "^2.1.11",
     "request": "^2.69.0"
   },
   "devDependencies": {
     "@types/node": "^9.4.7",
-    "jasmine": "^2.4.1",
+    "jasmine": "^3.1.0",
+    "mongodb": "^3.0.4",
+    "request": "^2.69.0",
     "rimraf": "^2.6.2",
     "tsc": "^1.20150623.0",
     "tslint": "^5.9.1",
-=======
-    "mongodb": "^3.0.4",
-    "request": "^2.69.0"
-  },
-  "devDependencies": {
-    "jasmine": "^3.1.0",
->>>>>>> 02365962b94e45d785f9ed31751fab9df3b34295
     "typescript": "^2.7.2"
   }
 }
