@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es5",
+        "target": "es6",
         "noImplicitAny": false,
         "outDir": "build",
         "rootDir": ".",
@@ -11,8 +11,6 @@
     "exclude": [
         "node_modules",
         "build",
-        ".vscode",
-        "typings/browser.d.ts",
-        "typings/browser"
+        ".vscode"
     ]
 }
